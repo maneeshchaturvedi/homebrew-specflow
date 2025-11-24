@@ -4,26 +4,26 @@
 class Specflow < Formula
   desc "AI-powered specification-driven development for legacy code"
   homepage "https://devtools.stackshala.com/specflow"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://devtools.stackshala.com/specflow/downloads/v0.2.0/specflow-darwin-arm64"
-      sha256 "90c97c0f1cfca77af41dc1093446d7d22a89b6f1c5ee5eb7496356f512c34f88"
+      url "https://devtools.stackshala.com/specflow/downloads/v0.3.0/specflow-darwin-arm64"
+      sha256 "bff83c6eab0a397616dc23b6e430872e570dcbd6e32160dca9b81e0c417ad267"
     else
-      url "https://devtools.stackshala.com/specflow/downloads/v0.2.0/specflow-darwin-amd64"
-      sha256 "838ce71b0e2af75a1d12d2b94f99cb155c9c3697ee8478a31b33460cf50379e1"
+      url "https://devtools.stackshala.com/specflow/downloads/v0.3.0/specflow-darwin-amd64"
+      sha256 "75d83328113aa69763af379f00a11a69b96a6f1cfb11c5b6508a392aa70a0295"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://devtools.stackshala.com/specflow/downloads/v0.2.0/specflow-linux-arm64"
-      sha256 "1be5d06a8491ee7d60e0b29592373709a578d5256fceb6b2bfac00799f628b14"
+      url "https://devtools.stackshala.com/specflow/downloads/v0.3.0/specflow-linux-arm64"
+      sha256 "f8958ca3d593d7ec1389d8de6e29dcc052cb99ee04af57890d794c2197c3f743"
     else
-      url "https://devtools.stackshala.com/specflow/downloads/v0.2.0/specflow-linux-amd64"
-      sha256 "66cceafb2c1eb2822b1a3b2aebceaff5bcbf988757f621e1fd50de5c37dc0083"
+      url "https://devtools.stackshala.com/specflow/downloads/v0.3.0/specflow-linux-amd64"
+      sha256 "8170c5fbc3c3cf17df52d7690cead84c9e6d4898332e1c126a5a33a0963215ef"
     end
   end
 
