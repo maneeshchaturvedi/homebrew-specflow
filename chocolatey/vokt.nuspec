@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vokt-cli</id>
+    <version>$VERSION$</version>
+    <title>Vokt CLI</title>
+    <authors>Maneesh Chaturvedi</authors>
+    <owners>maneeshchaturvedi</owners>
+    <projectUrl>https://github.com/maneeshchaturvedi/vokt</projectUrl>
+    <licenseUrl>https://github.com/maneeshchaturvedi/vokt/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AI-powered specification-driven development for legacy code. Vokt helps you understand and modernize legacy code through AI-powered specifications.</description>
+    <summary>Add tests and documentation to legacy code automatically - as you work</summary>
+    <tags>vokt cli development ai specifications legacy-code testing</tags>
+    <packageSourceUrl>https://github.com/maneeshchaturvedi/homebrew-vokt</packageSourceUrl>
+    <docsUrl>https://github.com/maneeshchaturvedi/vokt</docsUrl>
+    <bugTrackerUrl>https://github.com/maneeshchaturvedi/vokt/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

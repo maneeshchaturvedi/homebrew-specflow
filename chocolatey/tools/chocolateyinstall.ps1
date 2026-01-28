@@ -4,10 +4,10 @@ $url64 = '$DOWNLOAD_URL$'
 $checksum64 = '$CHECKSUM$'
 
 $packageArgs = @{
-  packageName   = 'specflow-cli'
+  packageName   = 'vokt-cli'
   fileType      = 'exe'
   url64bit      = $url64
-  softwareName  = 'specflow*'
+  softwareName  = 'vokt*'
   checksum64    = $checksum64
   checksumType64= 'sha256'
   silentArgs    = ''
@@ -18,9 +18,9 @@ $packageArgs = @{
 # Download the file
 Get-ChocolateyWebFile @packageArgs
 
-# Rename the downloaded file to specflow.exe
-$exePath = Join-Path $toolsDir "specflow-windows-amd64.exe"
-$targetPath = Join-Path $toolsDir "specflow.exe"
+# Rename the downloaded file to vokt.exe
+$exePath = Join-Path $toolsDir "vokt-windows-amd64.exe"
+$targetPath = Join-Path $toolsDir "vokt.exe"
 
 if (Test-Path $exePath) {
     Move-Item $exePath $targetPath -Force
