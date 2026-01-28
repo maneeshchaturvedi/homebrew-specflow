@@ -1,23 +1,23 @@
-# Package Repository for SpecFlow
+# Package Repository for Vokt
 
-Official package repository for [SpecFlow](https://github.com/maneeshchaturvedi/specflow) - supporting Homebrew (macOS/Linux) and Chocolatey (Windows).
+Official package repository for [Vokt](https://github.com/maneeshchaturvedi/vokt) - supporting Homebrew (macOS/Linux) and Chocolatey (Windows).
 
 ## Installation
 
 ### macOS/Linux (Homebrew)
 
 ```bash
-brew tap maneeshchaturvedi/specflow
-brew install specflow
+brew tap maneeshchaturvedi/vokt
+brew install vokt
 ```
 
 ### Windows (Chocolatey)
 
-Download the latest `.nupkg` file from [releases](https://github.com/maneeshchaturvedi/homebrew-specflow/releases) and install:
+Download the latest `.nupkg` file from [releases](https://github.com/maneeshchaturvedi/homebrew-vokt/releases) and install:
 
 ```powershell
 # Navigate to the directory containing the .nupkg file
-choco install specflow-cli -s . -y
+choco install vokt-cli -s . -y
 ```
 
 Or using PowerShell to download and install:
@@ -25,16 +25,16 @@ Or using PowerShell to download and install:
 ```powershell
 # Replace with the desired version
 $version = "1.1.0-alpha"
-$url = "https://github.com/maneeshchaturvedi/homebrew-specflow/releases/download/v$version/specflow-cli.$version.nupkg"
-Invoke-WebRequest -Uri $url -OutFile "specflow-cli.$version.nupkg"
-choco install specflow-cli -s . -y
+$url = "https://github.com/maneeshchaturvedi/homebrew-vokt/releases/download/v$version/vokt-cli.$version.nupkg"
+Invoke-WebRequest -Uri $url -OutFile "vokt-cli.$version.nupkg"
+choco install vokt-cli -s . -y
 ```
 
-## About SpecFlow
+## About Vokt
 
 Add tests and documentation to legacy code automatically - as you work.
 
-SpecFlow lets you safely use AI assistants on legacy codebases by automatically generating specifications and tests. No big-bang refactoring required.
+Vokt lets you safely use AI assistants on legacy codebases by automatically generating specifications and tests. No big-bang refactoring required.
 
 ### Features
 
@@ -46,8 +46,8 @@ SpecFlow lets you safely use AI assistants on legacy codebases by automatically 
 
 ## Links
 
-- [Documentation](https://github.com/maneeshchaturvedi/specflow)
-- [Issues](https://github.com/maneeshchaturvedi/specflow/issues)
+- [Documentation](https://github.com/maneeshchaturvedi/vokt)
+- [Issues](https://github.com/maneeshchaturvedi/vokt/issues)
 
 ## License
 
